@@ -1,0 +1,54 @@
+{
+  "name": {
+    "en": "Efekta Flower Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "measure_temperature",
+    "measure_moisture"
+  ],
+  "energy": {
+    "batteries": ["CR2450"]
+  },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": "efektalab.com",
+    "productId": [
+      "EFEKTA_PWS"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          1026,
+          1032
+        ],
+        "bindings": [
+          0,
+          1,
+          1026,
+          1032
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/icon.svg",
+      "instruction": {
+        "en": "Hold the reset button on your device for 10 seconds"
+      }
+    }
+  }
+}

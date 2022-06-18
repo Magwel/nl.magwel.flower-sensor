@@ -1,0 +1,30 @@
+{
+  "id": "nl.magwel.flower-sensor",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#ff8c00",
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "name": {
+    "en": "Zigbee Flower Sensor"
+  },
+  "description": {
+    "en": "Add support for plant sensors made on the CC2530 chip"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Magwel",
+    "email": "apps@magwel.nl"
+  }
+}
