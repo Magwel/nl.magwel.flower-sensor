@@ -5,8 +5,7 @@
   "sdk": 3,
   "brandColor": "#ff8c00",
   "platforms": [
-    "local",
-    "cloud"
+    "local"
   ],
   "name": {
     "en": "Zigbee Flower Sensor",
