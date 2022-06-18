@@ -9,10 +9,12 @@
     "cloud"
   ],
   "name": {
-    "en": "Zigbee Flower Sensor"
+    "en": "Zigbee Flower Sensor",
+    "nl": "Zigbee Plant Sensor"
   },
   "description": {
-    "en": "Add support for plant sensors made on the CC2530 chip"
+    "en": "Add support for plant sensors made on the CC2530 chip",
+    "nl": "Ondersteuning voor plant sensoren die zijn gebasseerd op de CC2530 chip"
   },
   "category": [
     "appliances"
@@ -26,5 +28,6 @@
   "author": {
     "name": "Magwel",
     "email": "apps@magwel.nl"
-  }
+  },
+  "source": "https://github.com/Magwel/nl.magwel.flower-sensor"
 }

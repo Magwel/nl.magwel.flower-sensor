@@ -1,6 +1,7 @@
 {
   "name": {
-    "en": "Efekta Flower Sensor"
+    "en": "Efekta Flower Sensor",
+    "nl": "Efekta Plant Sensor"
   },
   "class": "sensor",
   "capabilities": [
@@ -47,7 +48,8 @@
     "learnmode": {
       "image": "{{driverAssetsPath}}/icon.svg",
       "instruction": {
-        "en": "Hold the reset button on your device for 10 seconds"
+        "en": "Hold the reset button on your device for 10 seconds",
+        "nl": "Houd de reset knop voor 10 seconden ingedrukt"
       }
     }
   }

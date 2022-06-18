@@ -10,10 +10,12 @@
     "cloud"
   ],
   "name": {
-    "en": "Zigbee Flower Sensor"
+    "en": "Zigbee Flower Sensor",
+    "nl": "Zigbee Plant Sensor"
   },
   "description": {
-    "en": "Add support for plant sensors made on the CC2530 chip"
+    "en": "Add support for plant sensors made on the CC2530 chip",
+    "nl": "Ondersteuning voor plant sensoren die zijn gebasseerd op de CC2530 chip"
   },
   "category": [
     "appliances"
@@ -28,10 +30,12 @@
     "name": "Magwel",
     "email": "apps@magwel.nl"
   },
+  "source": "https://github.com/Magwel/nl.magwel.flower-sensor",
   "drivers": [
     {
       "name": {
-        "en": "Efekta Flower Sensor"
+        "en": "Efekta Flower Sensor",
+        "nl": "Efekta Plant Sensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -80,7 +84,8 @@
         "learnmode": {
           "image": "/drivers/efekta/assets/icon.svg",
           "instruction": {
-            "en": "Hold the reset button on your device for 10 seconds"
+            "en": "Hold the reset button on your device for 10 seconds",
+            "nl": "Houd de reset knop voor 10 seconden ingedrukt"
           }
         }
       },
